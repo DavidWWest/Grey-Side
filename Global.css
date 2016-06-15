@@ -1,3 +1,6 @@
 btmnavbar{
-
+background-color: gray;
+border-top: 1px solid gray;
+line-height: 30px;
+min-width: 900px;
 }
