@@ -1,5 +1,4 @@
 # Grey-Side HomePage
-![Material Design](https://material-design.storage.googleapis.com/publish/material_v_9/0Bx4BSt6jniD7VG9DQVluOFJ4Tnc/materialdesign_principles_metaphor.png)
 Basic design and layout for company website
 
 This does not contain anything other than how the company home site will look and links to different parts of the site
