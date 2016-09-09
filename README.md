@@ -8,4 +8,4 @@ It will contain information about the company's mission and philosophy, associat
 The different products are as follows:
 
 [Game Space](https://github.com/s24569/The-Game-Space):
-*Gives users the ability to build, market, and make money off of games
+* Gives users the ability to build, market, and make money off of games
