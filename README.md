@@ -7,7 +7,7 @@ It will contain information about the company's mission and philosophy, associat
 
 Each project is linked to their respective repositories. Each project has a wiki that goes into deeper detail about the project that its under.
 
-The different repository is as follows:
+The different repositories are as follows:
 
 ## [Advertising](https://github.com/s24569/Advertising)
 
