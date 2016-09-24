@@ -9,7 +9,7 @@ Each project is linked to their respective repositories. Each project has a wiki
 
 The different repository is as follows:
 
-## [Advertising]:
+## [Advertising]
 
 ## [Game Space](https://github.com/s24569/The-Game-Space):
 
