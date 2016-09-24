@@ -1,4 +1,4 @@
-# Grey-Side HomePage
+# Grey-Side Home
 Do what you want, not what you have to do
 
 This does not contain anything other than how the company home site will look and links to different parts of the site
