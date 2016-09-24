@@ -1,0 +1,6 @@
+{
+  "name": "Grey-side",
+  "tagline": "Basic design and layout for company website",
+  "body": "# Grey-Side HomePage\r\nBasic design and layout for company website\r\n\r\nThis does not contain anything other than how the company home site will look and links to different parts of the site\r\n\r\nIt will contain information about the company's mission and philosophy, associated products, and it will give the user the ability to read up on the basic structure of how all the products will work\r\n\r\nThe different products are as follows:\r\n\r\n## [Game Space](https://github.com/s24569/The-Game-Space):\r\n\r\n* Gives users the ability to build, market, and make money off of games\r\n* UI is designed to be incredibly simple in order to minimize learning curve(users should not have to know any programming in advance)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
