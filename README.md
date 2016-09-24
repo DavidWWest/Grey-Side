@@ -1,5 +1,5 @@
 # Grey-Side HomePage
-Basic design and layout for company website
+Do what you want, not what you have to do
 
 This does not contain anything other than how the company home site will look and links to different parts of the site
 
