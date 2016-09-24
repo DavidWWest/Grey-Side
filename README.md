@@ -5,7 +5,11 @@ This does not contain anything other than how the company home site will look an
 
 It will contain information about the company's mission and philosophy, associated products, and it will give the user the ability to read up on the basic structure of how all the products will work
 
-The different projects are as follows:
+Each project is linked to their respective repositories. Each project has a wiki that goes into deeper detail about the project that its under.
+
+The different repository is as follows:
+
+## [Advertising]:
 
 ## [Game Space](https://github.com/s24569/The-Game-Space):
 
