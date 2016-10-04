@@ -1,6 +1,6 @@
 # Grey-Side Home
 ## What do we do?
-We make tools that people can use to make money on the Internet. We want to give users the ability to be independent of limitations that the real world can have when it comes to being financially stable.
+We make tools that people can use to make money on the Internet. We want to give users the ability to be independent of limitations that the real world can have when it comes to employment.
 
 When it comes to Grey Side, a user does not have to have a resume, work experience, references, or an interview just to be able to start making money. All it takes is a computer, an internet connection, a good idea, and willingness to make the idea happen. We help take care of the rest
 
