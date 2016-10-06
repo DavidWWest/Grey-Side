@@ -11,7 +11,8 @@ Each project is linked to their respective repositories. Each project has a wiki
 The different repositories are as follows:
 
 ## [Advertising](https://github.com/s24569/Advertising)
-
+* Ad space rotates based on a weekly basis
+* The system is auction based. The top 3 highest paying bidders will have the ad space for the week. When the bidding session ends, the 3 bidding amounts will be added together and then paid out to the ad hoster
 
 ## [Game Space](https://github.com/s24569/The-Game-Space):
 
