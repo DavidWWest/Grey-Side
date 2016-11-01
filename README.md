@@ -1,4 +1,5 @@
 # Grey-Side
+![Grey Side]()
 
 ## What do we do?
 We make tools that people can use to make money on the Internet. We want to give users the ability to be independent of limitations that the real world can have when it comes to employment.
