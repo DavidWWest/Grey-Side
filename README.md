@@ -18,6 +18,8 @@ The different repositories are as follows:
 * Ad space rotates based on a weekly basis
 * The system is auction based. The top 3 highest paying bidders will have the ad space for the week. When the bidding session ends, the 3 bidding amounts will be added together and then paid out to the ad hoster
 
+## [Subscriptions]()
+
 ## [Game Space](https://github.com/s24569/The-Game-Space):
 * Gives users the ability to build, market, and make money off of games
 * UI is designed to be incredibly simple in order to minimize learning curve(users should not have to know any programming in advance)
