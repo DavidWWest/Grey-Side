@@ -3,13 +3,29 @@
    <head>
      <meta charset="utf-8">
      <title>Grey Side | Sign Up</title>
+     <script type="text/javascript">
+     function pwdCheck() {
+       var bob = document.getElementById("pwdCheck");
+       if(bob.value.length < 8){
+         alert("Password is not long enough");
+       }
+     }
+     </script>
+<style>
+#space{
+  margin-top: 25%;
+}
+
+</style>
    </head>
    <body>
-
      <center>
-<input name="name" value="" placeholder="Username or Email">
-<br><input type="password" name="" value="" placeholder="Password"><br>
-<input type="password" name="" value="" placeholder="Re-enter Password"><br>
+       <div id="space">
+<input name="name" value="" placeholder="Username or Email"><br>
+<input id="pwdCheck" type="password" name="" value="" placeholder="Password"><br>
+<input  type="password" name="" value="" placeholder="Re-enter Password"><br>
+<button type="button" onclick="pwdCheck()" name="button">Submit</button>
+</div>
     </center>
    </body>
  </html>
