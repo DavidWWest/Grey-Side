@@ -1,0 +1,16 @@
+body {
+	background-color: #EEFFFF;
+}
+
+#page {
+	margin: 50px 25%;
+	padding: 50px;
+	background-color: #F5FFFF;
+	text-align: center;
+	box-shadow: 3px 5px 20px #AAAAAA;
+}
+
+h1 {
+	margin: 10px 30px 80px 30px;
+	color: #555577;
+}
