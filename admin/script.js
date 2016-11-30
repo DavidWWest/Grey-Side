@@ -8,6 +8,8 @@ $(document).ready(function() {
 
 function pull() {
 	$.get("pull.php", function(data) {
-		alert(data);
+		var time = new Date().toString();
+		var content = "<p>" + time + "</p><p>" + data + "</p>";
+		document.getElementById("pull").innerHTML = content;
 	});
 }

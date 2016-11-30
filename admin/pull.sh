@@ -2,4 +2,4 @@
 
 cd ..
 echo "git pull"
-git pull
+sudo -u ubuntu git pull
