@@ -10,15 +10,35 @@
   margin-top: 25%;
 }
 
+.innie{
+  padding: 15px;
+  font-size: 15px;
+}
+#container{
+  display: block;
+  background-color: grey;
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+}
+#container_space{
+  padding-top: 35%;
+}
 </style>
 
 <div id="space">
+
   <center>
-<input type="text" name="name" placeholder="Username or Email"><br>
-<input type="password" name="name" placeholder="Password"><br>
+<div id="container">
+  <div id="container_space">
+<input class="innie"type="text" name="name" placeholder="Username or Email"><br>
+<input class="innie"type="password" name="name" placeholder="Password"><br>
 <a href="recovery/">Forgot Password?</a><br>
 <button type="button" name="button">Sign In</button>
+</div>
+</div>
   </center>
+
 </div>
 
   </body>
