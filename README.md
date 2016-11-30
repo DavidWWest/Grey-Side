@@ -1,5 +1,5 @@
 # Grey-Side
-![Grey Side](https://github.com/s24569/Grey-Side/blob/master/Grey%20Side.png)
+![Grey Side](https://github.com/s24569/Grey-Side/blob/master/logo.png)
 
 ## What do we do?
 We make tools that people can use to make money on the Internet. We want to give users the ability to be independent of limitations that the real world can have when it comes to employment.
