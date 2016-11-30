@@ -10,6 +10,6 @@ function pull() {
 	$.get("pull.php", function(data) {
 		var time = new Date().toString();
 		var content = "<p>" + time + "</p><p>" + data + "</p>";
-		document.getElementById("pull").innerHTML = content;
+		document.getElementById("pull").innerHTML = content.replace("\n", "</p><p>");
 	});
 }
