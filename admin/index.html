@@ -5,15 +5,24 @@
     <script type="text/javascript" src="../jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="button.css">
+    <link rel="stylesheet" type="text/css" href="loader.css">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <div id="page">
+
       <h1>Administration</h1>
+
       <div class="button" onclick="pull()">
-        <div>sync github</div>
+        <div>pull from github</div>
       </div>
       <div id="pull"></div>
+
+      <div class="button" onclick="push()">
+        <div>push to github</div>
+      </div>
+      <div id="push"></div>
+
     </div>
   </body>
 </html>

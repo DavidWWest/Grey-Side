@@ -7,9 +7,19 @@ $(document).ready(function() {
 });
 
 function pull() {
+	document.getElementById("pull").innerHTML = "<div class=\"loader\"></div>"
 	$.get("pull.php", function(data) {
 		var time = new Date().toString();
 		var content = "<p>" + time + "</p><p>" + data + "</p>";
 		document.getElementById("pull").innerHTML = content.replace("\n", "</p><p>");
+	});
+}
+
+function push() {
+	document.getElementById("push").innerHTML = "<div class=\"loader\"></div>"
+	$.get("push.php",{"msg" : "pushed from web interface"}, function(data) {
+		var time = new Date().toString();
+		var content = "<p>" + time + "</p><p>" + data + "</p>";
+		document.getElementById("push").innerHTML = content.replace("\n", "</p><p>");
 	});
 }
