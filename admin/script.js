@@ -24,3 +24,10 @@ function push() {
 		document.getElementById("push").innerHTML = content.replace("\n", "</p><p>");
 	});
 }
+
+function signin() {
+	var user = document.getElementById("user").value;
+	var pass = document.getElementById("pass").value;
+
+	alert("Username: " + user + "\nPassword: " + pass);
+}
