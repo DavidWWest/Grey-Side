@@ -25,3 +25,8 @@ The different repositories are as follows:
 ## [Game Space](https://github.com/s24569/The-Game-Space):
 * Gives users the ability to build, market, and make money off of games
 * UI is designed to be incredibly simple in order to minimize learning curve(users should not have to know any programming in advance)
+
+## [Decibell](https://github.com/s24569/decibell)
+* Gives users the ability to collaborate with music
+* System is similar to Git, where users can borrow a song, edit it, and push it to the playlist as a suggestion for the original artist to use
+* There will also be a tracking system that is similar to Git where an artist can track changes being made to a song so that they can still retain control of it while getting creative input
