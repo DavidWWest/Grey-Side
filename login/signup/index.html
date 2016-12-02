@@ -15,7 +15,16 @@
 #space{
   margin-top: 15%;
 }
-
+#container{
+  display: block;
+  background-color: grey;
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+}
+#container_space{
+  padding-top: 15%;
+}
 .innie{
   padding: 15px;
   font-size: 15px;
@@ -23,14 +32,18 @@
 </style>
    </head>
    <body>
+     <div id="space">
      <center>
-       <div id="space">
+       <div id="container">
+           <div id="container_space">
 <input class="innie" type="text" name="" value="" placeholder="Email" autofocus=""><br>
 <input class="innie"name="name" value="" placeholder="Username"><br>
 <input class="innie"id="pwdCheck" type="password" name="" value="" placeholder="Password"><br>
 <input  class="innie"type="password" name="" value="" placeholder="Re-enter Password"><br>
 <input class="innie"type="text" name="" value="" placeholder="Age"><br>
 <button type="button" onclick="pwdCheck()" name="button">Submit</button>
+</div>
+</div>
 </div>
     </center>
    </body>
