@@ -66,3 +66,23 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
+
+#container{
+  position: relative;
+  display: block;
+  background-color: grey;
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+}
+#container_space{
+  padding-top: 35%;
+}
+
+#space1{
+  margin-top: 10%;
+}
+.innie{
+  padding: 15px;
+  font-size: 15px;
+}

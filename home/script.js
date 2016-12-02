@@ -28,7 +28,6 @@ function initBannerVideoSize(element){
   });
 
   scaleBannerVideoSize(element);
-
 }
 
 function scaleBannerVideoSize(element){
@@ -56,4 +55,12 @@ function scaleBannerVideoSize(element){
       $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
 
   });
+}
+//Allows log in to fade in when button is pressed
+$(document).ready(function(){
+  $('#space1').hide();
+})
+function login(){
+$('space1').fadeIn(1000);
+
 }
