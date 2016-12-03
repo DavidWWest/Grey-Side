@@ -1,7 +1,26 @@
-.homepage-hero-module {
+/*.homepage-hero-module {
     border-right: none;
     border-left: none;
-    position: relative;
+    /*position: relative;
+    background-image: url('parallax.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+*/
+
+.parallax{
+  /*border-right: none;
+  border-left: none;
+  /*position: relative;*/
+  background-image: url('parallax.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 .no-video .video-container video,
 .touch .video-container video {
