@@ -11,6 +11,17 @@
 }
 */
 
+.parallax, .parallax1{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax1{
+  background-image: url("../Grey Side.png");
+  min-height: 100%;
+}
 .parallax{
   /*border-right: none;
   border-left: none;
