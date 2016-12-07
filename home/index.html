@@ -2,9 +2,10 @@
 <html>
 <head>
   <title>Grey Side | Home</title>
-  <script type="text/JavaScript"src="../jquery-3.1.1.min.js"></script>
-  <script type="text/JavaScript"src="../greyscript.js"></script>
-  <script type="text/JavaScript"src="script.js"></script>
+  <script type="text/javaScript" src="../jquery-3.1.1.min.js"></script>
+  <script type="text/javaScript" src="../greyscript.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+  <script type="text/javaScript"src="script.js"></script>
   <link rel="stylesheet" type="text/css" href="Global.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="shortcut icon" href="../Grey Side.png" type="image/png">
@@ -20,24 +21,15 @@
 <!--Gives users the ability to either join the site or sign in-->
       <ul class="nav navbar-nav navbar-right">
         <li><a href="../login/signup/"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="../login/index.html" onclick="login()"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li>
+            <a href="#" data-toggle="modal" data-target="#loginModal">
+                <span class="glyphicon glyphicon-log-in"></span>
+                Login
+            </a>
+        </li>
       </ul>
     </div>
   </nav>
-  <!--log in container goes here -->
-  <div id="space1">
-    <center>
-  <div id="container">
-    <div id="container_space">
-  <input class="innie"type="text" name="name" placeholder="Username or Email"><br>
-  <input class="innie"type="password" name="name" placeholder="Password"><br>
-  <a href="recover/">Forgot Password?</a><br>
-  <button type="button" name="button">Sign In</button>
-  </div>
-  </div>
-    </center>
-
-  </div>
 
   <div class="homepage-hero-module">
       <div class="video-container">
@@ -56,10 +48,48 @@
 
 <!--Provides additional information to help with more internal aspects of the company-->
   <div id="space">
-<a href= "../advertising/">Advertising</a>
-<a href="../community/">Community</a>
-<a href>FAQ</a>
+    <a href= "../advertising/">Advertising</a>
+    <a href="../community/">Community</a>
+    <a href>FAQ</a>
   </div>
 </div>
+
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="login-modal">
+                    <i class="fa fa-sign-in"></i> Sign In
+                </h3>
+            </div>
+            <div class="modal-body">
+                <form class="login" id="login" action="/login" accept-charset="UTF-8" method="post">
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-addon">Email</div>
+                            <input class="form-control input-lg" placeholder="johnny@appleseed.com" autocomplete="off" type="text" value="" name="user[email]" id="user_email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-addon">Password</div>
+                            <input class="form-control input-lg" placeholder="********" type="password" name="user[password]" id="user_password">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 visible-xs"></div>
+                        <div class="col-xs-12 col-sm-6">
+                            <button class="btn btn-primary btn-lg btn-block" type="submit">
+                                <i class="fa fa-sign-in"></i> Sign In
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
